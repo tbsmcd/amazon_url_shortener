@@ -5,4 +5,5 @@
 Edge でも使用可。
 
 ## 使い方
+https://github.com/user-attachments/assets/aea4c3b7-3524-4d9c-b3be-931c26d92fc9  
 Amazon 商品ページで右クリックメニューから「Copy the shortened Amazon URL」を選択すると、短い URL がクリップボードにコピーされます。
