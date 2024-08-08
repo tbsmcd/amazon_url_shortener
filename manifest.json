@@ -1,0 +1,27 @@
+{
+    "name": "Amazon URL Shortener",
+    "description": "Shorten Amazon URLs and copy to clipboard.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus",
+        "activeTab",
+        "scripting",
+        "clipboardWrite"
+    ],
+    "content_scripts": [
+        {
+        "matches": [
+            "https://www.amazon.co.jp/*",
+            "https://www.amazon.com/*"
+        ],
+        "js": ["content.js"]
+      }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Amazon URL Shortener"
+    }
+}
