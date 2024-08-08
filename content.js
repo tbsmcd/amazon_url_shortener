@@ -13,8 +13,7 @@ function showAlert(message) {
     // スタイルを定義
     const alert_style = {
         visibility: 'hidden',
-        minWidth: '250px',
-        marginLeft: '-125px',
+        marginLeft: '120px',
         backgroundColor: '#6e7955',
         color: 'white',
         textAlign: 'center',
@@ -22,7 +21,7 @@ function showAlert(message) {
         padding: '16px',
         position: 'fixed',
         zIndex: '1000',
-        left: '50%',
+        right: '120px',
         bottom: '30px',
         fontSize: '17px',
         opacity: '0',
