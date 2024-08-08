@@ -23,5 +23,8 @@
     },
     "action": {
         "default_title": "Amazon URL Shortener"
+    },
+    "icons": {
+        "16": "icon.png"
     }
 }
